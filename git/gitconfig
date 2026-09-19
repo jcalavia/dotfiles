@@ -1,5 +1,7 @@
 # Global Git Configuration
-# Maintained in dotfiles repo
+# ⚠️ OPTIONAL OVERRIDE — ansible-collection-setup is the PRIMARY source.
+# Use this only for quick personal tweaks. Prefer updating the ansible role template
+# at: ansible-collection-setup/roles/git/templates/gitconfig.j2
 
 [core]
     editor = nvim
