@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "opentmux",
+    "oh-my-openagent@latest",
+    "opencode-agent-tmux"
+  ],
+  "mcp": {
+    "engram": {
+      "command": [
+        "engram",
+        "mcp",
+        "--tools=agent"
+      ],
+      "enabled": true,
+      "type": "local"
+    }
+  }
+}

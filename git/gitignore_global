@@ -1,0 +1,25 @@
+# Global Git Ignore
+# Files to ignore across all repositories
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.tmp/
+temp/
+
+# Environment files (should be committed only in specific cases)
+.env.local
+.env.*.local
